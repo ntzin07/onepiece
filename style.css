@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+  font-size: 20px;
+  margin: 0px 200px 200px 200px;
+  
+  font-family: 'One Piece', sans-serif;
+  
+  
+}
+
+#logo {
+max-width: 200px;
+max-height: 150px;
+width: auto;
+height: auto;
+
+position: relative;
+left: 360px;
+
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: rgba(252, 249, 249, 0.877);
+  
+
+}
+
+p {
+  color: rgb(20, 20, 19);
+}
+
+section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#triomonstro {
+
+  max-width: 500px;
+  margin-top: 20px;
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+img#triomonstro:hover {
+  transform: scale(1.2);
+}
+
+@media(max-width: 600px)
+
+{
+  body {
+margin: 0px 50px 25px 10px;
+
+    
+    padding: 0px 60px 0px 60px;
+
+
+}
+
+#triomonstro {
+  max-width: 300px;
+}
+
+#logo {
+  left: 30px;
+}
+
+
+
+}
